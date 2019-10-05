@@ -1,13 +1,13 @@
 import React from 'react'
 import './button.scss';
 
-interface IProps {
-    text: string,
-    type?: string
-    onClick?: any
+interface ButtonProps {
+    text: string;
+    type?: string;
+    onClick?: any;
 }
 
-export const Button: React.FC<IProps> = React.memo(({ text, type, onClick }) => {
+export const Button: React.FC<ButtonProps> = React.memo(({ text, type, onClick }) => {
     return (
         <div className={`btn ${type ? type : 'default'}`} onClick={onClick}>
             {text}

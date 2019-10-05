@@ -32,8 +32,8 @@ export const TodoApp: React.FC = () => {
     }
     return (
         <React.Fragment>
-            <TodoList todos={todos} toggleTodo={toggleTodo} />
             <TodoForm addTodo={addTodo} />
+            <TodoList todos={todos} toggleTodo={toggleTodo} />
         </React.Fragment>
     )
 }
