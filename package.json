@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/SaniaLs4Life/React-Typescript-Webpack-Boilerplate#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },
